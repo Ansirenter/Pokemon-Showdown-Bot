@@ -4,7 +4,7 @@
 // If you really don't know how to do this... Run `node getserver.js URL`.
 // Fill in the URL of the client where `URL` is.
 // For example: `node getserver.js http://example-server.psim.us/`
-exports.server = 'sim.psim.us';
+exports.server = 'http://johtoleagueshowdown.herokuapp.com-80.psim.us/';
 exports.port = 8000;
 
 // This is the server id.
@@ -17,12 +17,12 @@ exports.serverid = 'showdown';
 
 // The nick and password to log in with
 // If no password is required, leave pass empty
-exports.nick = 'Example bot nick';
+exports.nick = 'Cosmos Bot';
 exports.pass = '';
 
 // The rooms that should be joined.
 // Joining Smogon's Showdown's Lobby is not allowed.
-exports.rooms = ['example room name', 'another example'];
+exports.rooms = ['Tournaments', 'Lobby'];
 
 // Any private rooms that should be joined.
 // Private rooms will be moderated differently (since /warn doesn't work in them).
@@ -37,7 +37,7 @@ exports.commandcharacter = '.';
 
 // The default rank is the minimum rank that can use a command in a room when
 // no rank is specified in settings.json
-exports.defaultrank = '%';
+exports.defaultrank = '@';
 
 // Whether this file should be watched for changes or not.
 // If you change this option, the server has to be restarted in order for it to
